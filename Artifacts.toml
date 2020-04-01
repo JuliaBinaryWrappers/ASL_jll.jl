@@ -1,113 +1,113 @@
 [[ASL]]
-arch = "aarch64"
-git-tree-sha1 = "61a13ee3716c42b68a9641c3eebdffb56e54f138"
+arch = "i686"
+git-tree-sha1 = "5b1b6fd5c34c6ff39f466ce6de2aaec23caea53d"
 libc = "musl"
 os = "linux"
 
     [[ASL.download]]
-    sha256 = "903c77e88864b250e3c8d1b6dce5a21f89c0eb07845d732e755713b4bcd824c9"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.aarch64-linux-musl.tar.gz"
+    sha256 = "d75a9d6778d8f606739f76cfa2566c87af0ece523a31997b9f4ee9358e86cf8d"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.i686-linux-musl.tar.gz"
+[[ASL]]
+arch = "aarch64"
+git-tree-sha1 = "9474e7292b89b35d89f783a9291f9daa250bd9bf"
+libc = "musl"
+os = "linux"
+
+    [[ASL.download]]
+    sha256 = "2686e676d560add64a47f4dfcd2d7f0f09380fe3559102278513f1e579310e97"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.aarch64-linux-musl.tar.gz"
 [[ASL]]
 arch = "i686"
-git-tree-sha1 = "1ff73b33a9f36887e129ddc43ad9f53a7a9bd97a"
+git-tree-sha1 = "50c7dd5a4eab8202d84e90e64cf68cf1b33ba17f"
 os = "windows"
 
     [[ASL.download]]
-    sha256 = "e03220a9d45ca0429b45a3b83ea82ba93b6695f7089d569109414b9b81c365f3"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.i686-w64-mingw32.tar.gz"
+    sha256 = "ca26effb559380134ecf4cf2ad339d42b4532356fb561fb7602922b3219be8fb"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.i686-w64-mingw32.tar.gz"
 [[ASL]]
 arch = "x86_64"
-git-tree-sha1 = "5f81745e22f2494b193abe859a021d45e5018a23"
+git-tree-sha1 = "7bf0b26ec92d30ec61591aa41782188a4c055140"
+os = "windows"
+
+    [[ASL.download]]
+    sha256 = "46f9060c3ed3b9a646dd8cab30e2c66b1da7eb526b17b0b211e6c56c496074bf"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.x86_64-w64-mingw32.tar.gz"
+[[ASL]]
+arch = "armv7l"
+git-tree-sha1 = "c523eddf1f3cb9a933fc2f2463cd577a011c23fb"
+libc = "glibc"
+os = "linux"
+
+    [[ASL.download]]
+    sha256 = "59267438d30162bee820786506bece49782fc36e14a372515421ad8151cb2bb4"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.armv7l-linux-gnueabihf.tar.gz"
+[[ASL]]
+arch = "armv7l"
+git-tree-sha1 = "4c88806a089951d2e6ac2115bff735ea32c4634f"
 libc = "musl"
 os = "linux"
 
     [[ASL.download]]
-    sha256 = "70017de487db1906aeea5cda45e718df8a54ad81a97afc5128187e81c3fa8140"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.x86_64-linux-musl.tar.gz"
+    sha256 = "50246ab6a17dcd56fa8b97288f86c82a49fb78c7f90dd97a0ceccc7a527a65fe"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.armv7l-linux-musleabihf.tar.gz"
 [[ASL]]
 arch = "i686"
-git-tree-sha1 = "6631bbd2f9a595b9487db4456b22490cc58a38b0"
+git-tree-sha1 = "512561843b72f55e6ff2492109e8287e5ed30e89"
 libc = "glibc"
 os = "linux"
 
     [[ASL.download]]
-    sha256 = "59359b6c3d76c33faea701b198fe1e3c139e7c96482c6bf0e157bb6f56066261"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.i686-linux-gnu.tar.gz"
-[[ASL]]
-arch = "armv7l"
-git-tree-sha1 = "a0eba8fab9afb399b535bdb42d16189a4c288ede"
-libc = "glibc"
-os = "linux"
-
-    [[ASL.download]]
-    sha256 = "a02a8c054be56fee5e4f6bfbc2e010c52cb8d21d5029fbefbbd3df0806b17fbd"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.armv7l-linux-gnueabihf.tar.gz"
-[[ASL]]
-arch = "aarch64"
-git-tree-sha1 = "d1b39ff4f94d728cfb8b61d4ab796f4b114b8f02"
-libc = "glibc"
-os = "linux"
-
-    [[ASL.download]]
-    sha256 = "f15a1bb10fb43ed7c8174b4a9ed6e04155400f3e34da95df855a425030d801da"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "865469cf9997c30db9832b28baeac08e2ee6c63c890712078fec7bd94b9f25f0"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.i686-linux-gnu.tar.gz"
 [[ASL]]
 arch = "x86_64"
-git-tree-sha1 = "f8777664f886df37bb707947e9b63c485147cd4a"
+git-tree-sha1 = "7a9f0f61a8cb3711c60f07fb2dab9d72ef51f98c"
 libc = "glibc"
 os = "linux"
 
     [[ASL.download]]
-    sha256 = "80c352b5a4dafbf3799f734e4182a878a26f67dee0bef8a859889ddcc3e23d72"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "9c288ea9df217f45887dc55d86a6e21bf848ab966e01911026fc0e612dccd7f7"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.x86_64-linux-gnu.tar.gz"
 [[ASL]]
 arch = "powerpc64le"
-git-tree-sha1 = "7693b4156ecdc4d4a1bd9085baedda7d420a8ace"
+git-tree-sha1 = "01e001ddc22beb18917c27758595c07992bffb71"
 libc = "glibc"
 os = "linux"
 
     [[ASL.download]]
-    sha256 = "c6f2b484157f1bc8e562aa932118c5bc9a8684a5b82b6877fe1d415e31cea457"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "04bd0b76a20f88de5f4d596ae4dc0db1f908fa389175d17f1d9772ee29edb0c4"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.powerpc64le-linux-gnu.tar.gz"
 [[ASL]]
 arch = "x86_64"
-git-tree-sha1 = "76c80fafbbe05d37cd66954caa35efad2b2974ee"
+git-tree-sha1 = "ebb905a14d48327f59a2be125024b187ab5cdb31"
 os = "macos"
 
     [[ASL.download]]
-    sha256 = "33430fd9f72cf747c95dae888a2e0fa5ffa8afce4c21debf83969a7b31c81af4"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.x86_64-apple-darwin14.tar.gz"
+    sha256 = "38ebae1a03f9414a4ce2a37663f3c1ae34f900584598f035e37e576769bc7cce"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.x86_64-apple-darwin14.tar.gz"
+[[ASL]]
+arch = "aarch64"
+git-tree-sha1 = "fbf4270564fa7046389babf24298fad05933d433"
+libc = "glibc"
+os = "linux"
+
+    [[ASL.download]]
+    sha256 = "ddaaa4333718244b187139de18a85f9dea7c3e049d3b5877b9ebf293eb751741"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.aarch64-linux-gnu.tar.gz"
 [[ASL]]
 arch = "x86_64"
-git-tree-sha1 = "98a00b4beb7bc0e2dae1c4c8da9f9d667d9a2746"
+git-tree-sha1 = "454566cb6c284a5f775298745701fd0c19c388fe"
 os = "freebsd"
 
     [[ASL.download]]
-    sha256 = "1829a2f76e988f247667f051dd5b2ec39634e8db3193ca8b023189b810519c1b"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.x86_64-unknown-freebsd11.1.tar.gz"
-[[ASL]]
-arch = "i686"
-git-tree-sha1 = "41d55c515de60fa460c91b8c69e462e2b64a5dfd"
-libc = "musl"
-os = "linux"
-
-    [[ASL.download]]
-    sha256 = "1c9dd1247824185b7dedc2e9f7babd194a0d20394a5a15af83445420567d98d2"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.i686-linux-musl.tar.gz"
-[[ASL]]
-arch = "armv7l"
-git-tree-sha1 = "1a6265c9d2b6bbc4f7a89599e14ddce2604d94ed"
-libc = "musl"
-os = "linux"
-
-    [[ASL.download]]
-    sha256 = "eb309a26f983f532ed0717e98479946c87734fb59189301de6e3f55a84b04e4a"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "1c2d7600defa52d97f51ee402b476e34bf1ba0f741475e3bb516d4455ffc2f8a"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.x86_64-unknown-freebsd11.1.tar.gz"
 [[ASL]]
 arch = "x86_64"
-git-tree-sha1 = "6aca4fd692bd3688b5d1b73dc77fbbccbf81c417"
-os = "windows"
+git-tree-sha1 = "83d7493fcb3a587730a5d6ec287437c05752e2e9"
+libc = "musl"
+os = "linux"
 
     [[ASL.download]]
-    sha256 = "87315ec66e3d1823fba708e71821eaa065396b56eece5d3176cefe548dcdeb37"
-    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+1/ASL.v0.1.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "fdd554aaac129a88e6c00a9b86fab87a11a338f22cdb6fdc0f9942127fe09adf"
+    url = "https://github.com/JuliaBinaryWrappers/ASL_jll.jl/releases/download/ASL-v0.1.1+2/ASL.v0.1.1.x86_64-linux-musl.tar.gz"
